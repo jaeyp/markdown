@@ -46,19 +46,33 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 *****************************************
 # 2. Horizontal Lines
 ```
-***
-```
-***
+Three or more...
 
-```
----
-```
 ---
 
-```
-___  
-```
+Hyphens
+
+***
+
+Asterisks
+
 ___
+
+Underscores
+```
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
   
 *****************************************
 # 3. Code
@@ -193,5 +207,15 @@ print s
 >> Quoted quote (Nested BlockQuote)
 > * Quoted
 > * List
+> `Quoted Code`
 
+*****************************************
+# 6. Definition & Abbreviation
+```
+WordPress  
+: A semantic personal publishing platform
+
+Markdown  
+: Text-to-HTML conversion tool
+```
 
