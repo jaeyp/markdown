@@ -236,4 +236,25 @@ Or use the [reference link text itself].
 [1]: http://slashdot.org  
 [reference link text itself]: http://www.reddit.com  
 
-## 6-1. Images
+## 6-2. Images
+```
+inline image link:
+![inline image link](https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange")
+
+inline image link with relative path:
+![inline image link with relative path](./git.png "Logo Orange")
+
+reference image link:
+![reference image link][logo]
+```
+
+inline image link:
+![inline image link](https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange")
+
+inline image link with relative path:
+![inline image link with relative path](./git.png "Logo Orange with relative path")
+
+reference image link:
+![reference image link][logo]
+
+[logo]: https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange 2"
