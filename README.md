@@ -1,5 +1,5 @@
-# markdown
-Markdown syntax manual for GitHub
+# Markdown
+Simple markdown syntax manual
 
 *****************************************
 # 0. Two spaces at the end of a line create a line break
