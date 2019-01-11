@@ -1,6 +1,7 @@
 # markdown
 Markdown syntax manual for GitHub
 
+*****************************************
 # 1. Headings
 ```
 # this is h1
@@ -17,6 +18,7 @@ Markdown syntax manual for GitHub
 ##### this is h5
 ###### this is h6
 
+*****************************************
 # 2. Horizontal Lines
 ```
 ***
@@ -26,7 +28,8 @@ ___
 ***
 ---
 ___
-
+  
+*****************************************
 # 3. Code
 ## 3-1. Code & Code block
 ```
@@ -91,21 +94,23 @@ s = "Python syntax highlighting"
 print s
 ```
 
-
-# 3. BlockQuote
-```
-> Quoted text
->> Quoted quote
-> * Quoted
-> * List
-```
-> Quoted text
->> Quoted quote
-> * Quoted
-> * List
-
+*****************************************
 # 4. List
 ## 4-1. Bullet List
 ## 4-2. Numbered List
 ## 4-3. Mixed List
+
+*****************************************
+# 5. BlockQuote
+```
+> Quoted text
+>> Quoted quote
+> * Quoted
+> * List
+```
+> Quoted text
+>> Quoted quote
+> * Quoted
+> * List
+
 
