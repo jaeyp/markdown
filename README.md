@@ -199,13 +199,15 @@ print s
 # 5. BlockQuote
 ```
 > Quoted text
->> Quoted quote
+>> Quoted quote (Nested BlockQuote)
+>>>>>>>>>> Quoted quote2 (Nested BlockQuote)
 > * Quoted
 > * List  
 > `Quoted Code`
 ```
 > Quoted text
 >> Quoted quote (Nested BlockQuote)
+>>>>>>>>>> Quoted quote2 (Nested BlockQuote)
 > * Quoted
 > * List  
 > `Quoted Code`
