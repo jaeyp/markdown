@@ -2,6 +2,14 @@
 Markdown syntax manual for GitHub
 
 *****************************************
+# 0. Two spaces at the end of a line create a line break
+this  
+is  
+a  
+line  
+break
+
+*****************************************
 # 1. Headings
 ```
 # this is h1
@@ -32,21 +40,27 @@ ___
 *****************************************
 # 3. Code
 ## 3-1. Code & Code block
-\`This is code\`
+~~~
+`This is code`
+~~~
 `This is code`
 
-\~~~
-This is a piece of code
-in a block
-\~~~
+```
+~~~  
+This is a piece of code  
+in a block  
+~~~
+```
 ~~~
 This is a piece of code
 in a block
 ~~~
 
-\```
-This too
-\```
+~~~
+```  
+This too  
+```
+~~~
 ```
 This too
 ```
@@ -116,9 +130,9 @@ print s
 2018\. item
 3\. item
 ```
-1\. item
-2018\. item
-3\. item
+1\. item  
+2018\. item  
+3\. item  
 
 ## 4-3. Mixed List
 
