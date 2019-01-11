@@ -162,6 +162,12 @@ print s
 
 ## 4-2. Numbered List
 ```
+1. item  
+1-1. item  
+2. item  
+2-1. item  
+2-2. item  
+
 1. item
 2. item
    1. item
@@ -170,6 +176,12 @@ print s
    1. item
       1. item
 ```
+1. item  
+1-1. item  
+2. item  
+2-1. item  
+2-2. item  
+
 1. item
 2. item
    1. item
