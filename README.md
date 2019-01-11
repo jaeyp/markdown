@@ -201,21 +201,37 @@ print s
 > Quoted text
 >> Quoted quote
 > * Quoted
-> * List
+> * List  
+> `Quoted Code`
 ```
 > Quoted text
 >> Quoted quote (Nested BlockQuote)
 > * Quoted
-> * List
+> * List  
 > `Quoted Code`
 
 *****************************************
-# 6. Definition & Abbreviation
+# 6. Links & Images
+## 6-1. Links
 ```
-WordPress  
-: A semantic personal publishing platform
+[inline link](https://www.google.com)  
+[inline link with tooltip on mouse over](https://www.google.com "Google's Homepage")  
+[reference link][case-insensitive reference]  
+[reference link with number][1]  
+Or use the [reference link text itself].  
 
-Markdown  
-: Text-to-HTML conversion tool
+[case-insensitive reference]: https://www.mozilla.org  
+[1]: http://slashdot.org  
+[reference link text itself]: http://www.reddit.com  
 ```
+[inline link](https://www.google.com)  
+[inline link with tooltip on mouse over](https://www.google.com "Google's Homepage")  
+[reference link][case-insensitive reference]  
+[reference link with number][1]  
+Or use the [reference link text itself].  
 
+[case-insensitive reference]: https://www.mozilla.org  
+[1]: http://slashdot.org  
+[reference link text itself]: http://www.reddit.com  
+
+## 6-1. Images
