@@ -118,7 +118,9 @@ print s
 ```
 
 *****************************************
-# 4. List (Use 2 tabs or 3 spaces for sublist)
+# 4. List
+**Use 2 tabs or 3 spaces for sublist**
+
 ## 4-1. Bullet List
 ```
 * item
