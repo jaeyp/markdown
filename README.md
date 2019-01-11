@@ -118,7 +118,7 @@ print s
 ```
 
 *****************************************
-# 4. List
+# 4. List (Use 2 tabs or 3 spaces for sublist)
 ## 4-1. Bullet List
 ```
 * item
@@ -158,7 +158,21 @@ print s
 
 
 ## 4-3. Mixed List
-
+```
+1. item
+    1. item
+        - item
+* item
+    - item
+        1. item
+```
+1. item
+    1. item
+        - item
+* item
+    - item
+        1. item
+        
 *****************************************
 # 5. BlockQuote
 ```
