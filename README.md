@@ -32,30 +32,25 @@ ___
 *****************************************
 # 3. Code
 ## 3-1. Code & Code block
-```
-`This is code`
-```
+\`This is code\`
 `This is code`
 
-```
-~~~
+\~~~
 This is a piece of code
 in a block
-~~~
-```
+\~~~
 ~~~
 This is a piece of code
 in a block
 ~~~
 
-~~~
+\```
+This too
+\```
 ```
 This too
 ```
-~~~
-```
-This too
-```
+
 ## 3-2. Syntax Highlighting
 ~~~
 ```css
@@ -98,6 +93,33 @@ print s
 # 4. List
 ## 4-1. Bullet List
 ## 4-2. Numbered List
+```
+1. item
+2. item
+3. item
+```
+1. item
+2. item
+3. item
+
+```
+1. item
+2018. item
+3. item
+```
+1. item
+2018. item
+3. item
+
+```
+1\. item
+2018\. item
+3\. item
+```
+1\. item
+2018\. item
+3\. item
+
 ## 4-3. Mixed List
 
 *****************************************
