@@ -10,7 +10,9 @@ line
 break
 
 *****************************************
-# 1. Headings
+# 1. Headings & Emphasis
+
+## 1-1. Headings
 ```
 # this is h1
 ## this is h2
@@ -25,6 +27,21 @@ break
 #### this is h4
 ##### this is h5
 ###### this is h6
+
+## 1-2. Emphasis
+```
+Emphasis, aka italics, with *asterisks* or _underscores_.
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Combined emphasis with **asterisks and _underscores_**.
+Strikethrough uses two tildes. ~~Scratch this.~~
+```
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
 
 *****************************************
 # 2. Horizontal Lines
@@ -103,33 +120,38 @@ print s
 *****************************************
 # 4. List
 ## 4-1. Bullet List
+```
+* item
+  * item
+    * item
++ item
+  + item
+    + item
+- item
+  - item
+    - item
+* item
+  - item
+    + item
+```
+* item
+  * item
+    * item
+
 ## 4-2. Numbered List
 ```
 1. item
+  1. item
 2. item
+  1. item
+  2. item
 3. item
+  1. item
+    1. item
 ```
 1. item
-2. item
-3. item
+  1. item
 
-```
-1. item
-2018. item
-3. item
-```
-1. item
-2018. item
-3. item
-
-```
-1\. item
-2018\. item
-3\. item
-```
-1\. item  
-2018\. item  
-3\. item  
 
 ## 4-3. Mixed List
 
