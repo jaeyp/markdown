@@ -251,23 +251,25 @@ Or use the [reference link text itself].
 ## 6-2. Images
 ```
 inline image link:
-![inline image link](https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange")
+![alt text here](https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange")
 
 inline image link with relative path:
-![inline image link with relative path](./git.png "Logo Orange")
+![alt text here](./git.png "Logo Orange with relative path")
 
 reference image link:
-![reference image link][logo]
+![alt text here][logo]
+
+[logo]: https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange 2"
 ```
 
 inline image link:
-![inline image link](https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange")
+![alt text here](https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange")
 
 inline image link with relative path:
-![inline image link with relative path](./git.png "Logo Orange with relative path")
+![alt text here](./git.png "Logo Orange with relative path")
 
 reference image link:
-![reference image link][logo]
+![alt text here][logo]
 
 [logo]: https://github.com/jaeyp/markdown/blob/master/git.png "Logo Orange 2"
 
